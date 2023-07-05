@@ -1,0 +1,39 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #392727;
+    color: white;
+    padding: 0;
+    font-family: 'Sansita', sans-serif;
+    height: 50px;
+}
+
+.navHead{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h1 {
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+h4 {
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    margin: 14px 50px;
+    font-weight: bold;
+}
+
+.log {
+    margin-right: 20px;
+}
