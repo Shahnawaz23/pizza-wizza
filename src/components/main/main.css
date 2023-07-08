@@ -1,0 +1,34 @@
+img {
+    width: 100%;
+    opacity: .8;
+}
+
+.divHead {
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Sansita', sans-serif;
+}
+
+.welcome {
+    margin-bottom: 10px;
+    font-size: 4rem;
+    color: white;
+}
+
+.enjoy{
+    color: white;
+    font-size: 35px;
+}
+
+.logo-img {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+} 
+
+

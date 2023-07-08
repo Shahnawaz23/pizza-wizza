@@ -42,3 +42,9 @@
   margin: 0;
 }
 
+::selection {
+  background-color: rgba(5, 99, 5, 0.732);
+}
+
+
+
