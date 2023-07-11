@@ -26,11 +26,16 @@
     position: relative;
     font-family: 'Sansita',sans-serif;
     font-weight: lighter;
-    flex: 0 1 21%;
+    flex: 0 1 22%;
+    transition: transform .8s;
 }
 
 .item:hover {
     box-shadow: 0 0 11px rgba(219, 77, 11, 0.769);
+    /* -ms-transform: scale(.1);
+    -webkit-transform: scale(.2); */
+    transform: scale(1.05);
+    /* transform: rotate(360deg); */
 }
 
 .about {
@@ -58,9 +63,11 @@
     border-bottom-right-radius: 10px;
     font-size: 15px;
     font-weight: bold;
+    transition: .8s background-color;
     
 }
 .order:hover {
     color: #a03608;
     background-color: white;
+    transition-delay: 0s;
 }

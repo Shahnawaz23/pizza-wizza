@@ -2,7 +2,7 @@ import'./navbar.css';
 
 function Navbar() {
   return (
-    <div className='container'>
+    <div className='nav-container'>
       <nav className="navHead">
         <h1 className='heading'>Pizza Wizza</h1>
         <h4>Home</h4>
