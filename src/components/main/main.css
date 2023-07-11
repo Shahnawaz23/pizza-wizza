@@ -32,6 +32,13 @@ img {
     height: 200px;
     width: 200px;
     opacity: 1;
+    transition: transform .8s;
 } 
+
+.logo-img:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 20px #a03608;
+    transform: scale(1.1);
+}
 
 
