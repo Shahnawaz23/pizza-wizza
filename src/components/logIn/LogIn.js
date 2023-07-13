@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function LongIn() {
+export default function LogIn() {
     return (
       <div>
         <div className='logIn-container'>
