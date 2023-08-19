@@ -6,13 +6,21 @@ function Navbar() {
   return (
     <div className="nav-container">
       <nav className="navHead">
-        <h1 className="heading">Pizza Wizza</h1>
+        <h1 className="heading">
+          <Link className="headLink" to="/">Pizza Wizza</Link>
+        </h1>
       </nav>
       <div className="action">
-        <Link className="log" to="./components/logIn/LogIn.js">
+        <Link to="/logIn" className="log-in" aria-current="page">
           Log In
         </Link>
-        <nav className="sign">Sign Up</nav>
+        <Link className="sign" to="/signUp">
+          Sign Up
+        </Link>
+        {/* <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div> */}
       </div>
     </div>
   );
