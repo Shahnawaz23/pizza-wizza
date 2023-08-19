@@ -17,7 +17,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #a03608;
     margin: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -28,20 +27,19 @@
 }
 
 .form1 {
-    height: 30px;
+    height: 35px;
     margin: 20px;
     border: none;
-    box-shadow: 0px 0px 5px 3px #a03608;
+    box-shadow: 0px 0px 10px 3px #a03608;
     color: #a03608;
-    padding: 10px;
+    padding: 5px;
     width: 83%;
-
+    font-size: 20px;
 }
 
 .subm1 {
     padding-bottom: 25px;
     color: white;
     background-color: #a03608;
-    border: 1px solid white;
     font-weight: bold;
 }
